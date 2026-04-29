@@ -1153,7 +1153,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>DEV SEL</string>
+          <string>DEV SELECT</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1184,12 +1184,12 @@
       <elementName>Multiplexer</elementName>
       <elementAttributes>
         <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="2160" y="3120"/>
@@ -1198,12 +1198,12 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Manual clock</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>manual clock</string>
         </entry>
       </elementAttributes>
       <pos x="2180" y="3160"/>
@@ -2066,21 +2066,14 @@
     <string>clk</string>
     <string>K</string>
     <string>reset</string>
-    <string>DEV_AWAIT_0</string>
     <string>DEV_IN_0</string>
-    <string>DEV_SUBMIT_0</string>
-    <string>DEV_RELEASE_0</string>
-    <string>DEV_AWAIT_1</string>
     <string>DEV_IN_1</string>
-    <string>DEV_SUBMIT_1</string>
-    <string>DEV_RELEASE_1</string>
-    <string>DEV_AWAIT_2</string>
     <string>DEV_IN_2</string>
-    <string>DEV_SUBMIT_2</string>
-    <string>DEV_RELEASE_2</string>
-    <string>DEV_AWAIT_3</string>
     <string>DEV_IN_3</string>
-    <string>DEV_SUBMIT_3</string>
-    <string>DEV_RELEASE_3</string>
+    <string>DEV_SUBMIT</string>
+    <string>DEV_RELEASE</string>
+    <string>DEV_AWAIT</string>
+    <string>DEV_SELECT</string>
+    <string>Manual_clock</string>
   </measurementOrdering>
 </circuit>
